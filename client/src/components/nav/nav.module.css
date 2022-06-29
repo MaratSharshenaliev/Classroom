@@ -1,0 +1,46 @@
+.nav{
+    width: 33vw;
+}
+.ul{
+    justify-content: center;
+    max-width: 100%;
+    white-space: nowrap;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    height: 4rem;
+    list-style-type: none;
+}
+.a{
+    padding: 0.125rem 1.5rem 0 1.5rem;
+    height: 100%;
+
+    text-decoration: none;
+
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes opacity {
+    0%{opacity: 0;}100%{opacity: 1}
+}
+
+
+.active:after
+{
+    animation: 500ms opacity linear;
+
+    border-top-width: 0.25rem;
+    border-top-style: solid;
+    -webkit-border-radius: 0.25rem 0.25rem 0 0;
+    border-radius: 0.25rem 0.25rem 0 0;
+    bottom: -0.01rem;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}

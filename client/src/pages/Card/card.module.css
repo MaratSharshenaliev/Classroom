@@ -1,0 +1,33 @@
+.content{
+
+    display: grid;
+    grid-template-columns: 0.5fr repeat(2,1fr);
+    grid-template-rows: minmax(240px,auto);
+    grid-template-areas:
+    "header header  header"
+    "block content_block  content_block"
+    ;
+    gap: 23px;
+
+}
+.header{
+    border-radius: 7px;
+    grid-area: header;
+
+}
+.block{
+    grid-area: block;
+}
+.item{
+    border-radius: 7px;
+    border:0.0625rem solid #e0e0e0;
+    min-height: 20vh;
+
+}
+
+.content_block{
+    grid-area: content_block;
+}
+
+
+

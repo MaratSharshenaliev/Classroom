@@ -1,0 +1,8 @@
+
+
+create new accaunt::
+<
+INSERT INTO public."User"(
+	"name", "email", "password", number)
+	VALUES ('Marat', 'sharshenaliev.2003@gmail.com','password123',996509690790);
+>

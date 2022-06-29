@@ -1,0 +1,132 @@
+@media screen and (max-width: 1024px) {
+    .container{
+        max-width: 60vw;
+        height: 60vh;
+        margin: 0 auto;
+    }
+}
+.constructor{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.b_viewport{
+    margin: 0 auto;
+    padding-top: 10.3%;
+}
+.container{
+    max-width: 30vw;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(65, 65, 65, 0.16);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+.form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    gap: 10px;
+}
+.label input{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.47);
+    backdrop-filter: blur(15px);
+    border-radius: 7px;
+    border:none;
+    padding:0;
+    margin: 0;
+}
+
+.authButton{
+    display: flex;
+    gap: 3%;
+}
+.AuthButtonOne{
+    width: 95%;
+    height: 40px;
+    border:none;
+    transition: 0.3s linear;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff9900;
+
+}
+.AuthButtonOne:hover{
+    background-color: rgb(255, 195, 106);
+
+
+}
+
+.AuthButtonTwo{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(14px);
+    width: 95%;
+    height: 40px;
+    border:none;
+    transition: 0.3s linear;
+}
+.AuthButtonTwo:hover{
+    background-color: #ff9900;
+    border:2px solid #ff9900;
+
+    color: white;
+}
+.AuthButtonOne:disabled,
+.AuthButtonTwo:disabled{
+    background-color: rgba(255, 195, 106, 0.51);
+    color: white;
+}
+
+
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+
+@media screen and (max-width: 1024px) {
+    .container{
+        max-width: 40vw;
+        height: 60vh;
+        margin: 0 auto;
+    }
+}
+
+.l{display: none}
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 60vw;
+        height: 60vh;
+        margin: 0 auto;
+    }
+}
+.l{display: none}
+@media screen and (max-width: 540px) {
+    .container{
+        max-width: 70vw;
+        height: 60vh;
+        margin: 0 auto;
+    }
+}
+.l{display: none}
+@media screen and (max-width: 375px) {
+    .container{
+        max-width: 96vw;
+        height: 60vh;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+

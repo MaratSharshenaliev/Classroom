@@ -1,0 +1,61 @@
+
+.headerContainer{
+  padding: 0 3%;
+}
+
+.header{
+  width: 99.9%;
+  background-color: #fff;
+  border-bottom: 0.0625rem solid #e0e0e0;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.HeaderText
+{
+  text-align: center;
+  width: 33vw;
+  font-size: 11pt;
+  font-weight: 600;
+}
+.Hwv4mb, .Hwv4mb .OGhwGf{
+display: -webkit-box;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: column;
+flex-direction: column;
+-webkit-justify-content: center;
+justify-content: center;
+max-width: 100%;
+overflow: hidden;
+}
+
+.IqJTee {
+  color: #5f6368;
+  font-family: "Product Sans",Arial,Helvetica,sans-serif;
+  font-size: 1.38125rem;
+  position: relative;
+  top: -0.375rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.QRiHXd {
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.XIpEib {
+  height: 4rem;
+  padding-left: 1.5rem;
+}
+
+
+
